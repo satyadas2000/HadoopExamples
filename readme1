@@ -1,0 +1,26 @@
+https://pivotalhd-210.docs.pivotal.io/tutorial/getting-started/map-reduce-java/summarization-postalcode-paidamount.html
+https://github.com/pivotalsoftware/pivotal-samples/tree/master/sample-data
+
+
+Hadoop cluster setup
+https://www.linode.com/docs/databases/hadoop/how-to-install-and-set-up-hadoop-cluster/
+
+
+
+
+
+
+
+
+interview
+https://data-flair.training/blogs/mapreduce-performance-tuning/
+
+/home/satya/bigdata/file_part_00.tsv
+
+hadoop fs -put input.csv /user/hadoop/
+view
+hadoop fs -ls /user/hadoop/
+view output
+hadoop fs -cat output_t/part-r-00000
+job
+hadoop@satya-Lenovo-G50-80:~/testdata$ hadoop jar HadoopExample-0.0.1-SNAPSHOT.jar com.HadoopExample.App input.csv output_t
